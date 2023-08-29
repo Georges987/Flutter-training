@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:training/components/cards/author_card.dart';
 import 'package:training/components/cards/main_card.dart';
 import 'package:training/theme/main_theme.dart';
 
@@ -9,7 +10,7 @@ void main() {
 class Fooderlich extends StatelessWidget {
   Fooderlich({super.key});
 
-  final theme = AppTheme.lightTheme;
+  final theme = AppTheme.darkTheme;
 
   @override
   Widget build(BuildContext context) {
@@ -62,9 +63,7 @@ class _MainState extends State<Main> {
 
   List<Widget> element = [
     const MainCard(),
-    Container(
-      color: Colors.blue,
-    ),
+    const AuthorCard(),
     Container(
       color: Colors.red,
     )

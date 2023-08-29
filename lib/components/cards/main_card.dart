@@ -7,7 +7,7 @@ class MainCard extends StatelessWidget {
   final String category = "Choix du chef";
   final String title = "L'art de préparer la pâte";
   final String description =
-      "Apprendre comment préparer sans grains et qui ne bouillone pas. ";
+      "Apprendre comment préparer sans grains.";
   final String chef = "Georges AYENI";
 
   @override
